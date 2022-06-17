@@ -1,0 +1,35 @@
+*{
+  padding: 0px;
+  border: 0px;
+}
+body{
+  padding: 12px;
+  height: 100%;
+  width: 100%;
+}
+.carousel-item {
+  height: 450px;
+}
+@media(min-width: 1320px){
+  .carousel-item {
+    height: 600px;
+  }
+}
+@media(max-width: 900px){
+  .carousel-item {
+    height: 300px;
+  }
+}
+.carousel-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+}
+.img-comissions{
+  height: 90%;
+  object-fit: cover;
+  border-radius: 5px;
+}
