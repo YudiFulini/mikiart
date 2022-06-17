@@ -1,0 +1,134 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MikiArt_</title>
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="./css/main.min.css">
+  <link rel="stylesheet" href="./css/general.css">
+</head>
+
+<body class="bg-blackground">
+  <!--NAVBAR-->
+  <nav class="navbar navbar-expand-md navbar-dark p-2 bg-dark fixed-top border-bottom border-lightground">
+    <div class="container-xl">
+      
+      <!-- navbar brand / title -->
+      <a class="navbar-brand" href="#home">
+        <span class="text-lightground fw-bold">
+          MikiArt_
+        </span>
+      </a>
+
+      <!-- toggle button for mobile nav -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- navbar links -->
+      <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#galery">Galery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#comissions">Comissions</a>
+          </li>
+          <li class="nav-item d-md-none">
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <!--HOME-->
+  <section id="home" class="container-lg mt-5 mb-5 pt-5 pb-5">
+
+    <div class="row align-items-center justify-content-center g-5 ">
+      <div class="col-md-4 d-flex justify-content-center justify-content-md-end">
+        <img class="img-fluid rounded-circle" src="./img/profile_picture.png" alt="profile_picture">
+      </div>
+      <div class="col-md-6 ">
+        <h2 class="text-lightground">About me</h2>
+        <p class="text-light text-justify">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit rerum perferendis doloremque numquam sint! Sit deleniti non rerum placeat perferendis omnis? Quas commodi pariatur nam hic ab obcaecati laborum eos?<br>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium quidem itaque numquam temporibus incidunt illo eius odit, blanditiis aperiam voluptates provident ab, quasi neque aspernatur omnis, eaque repudiandae voluptatum sint.<br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa saepe optio aliquam ipsa nostrum, commodi obcaecati, quibusdam quos autem maiores eius fuga? Enim esse animi itaque iste cupiditate, illo assumenda?<br>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!--GALERY-->
+  <section id="galery" class="container-fluid mt-5 mb-5 pt-5 pb-5 bg-dark">
+    <h1 class="text-lightground text-center pb-3">Previews</h1>
+
+    <div class="row justify-content-center pb-5">
+      <div class="col-xxl-10">
+        <div id="carouselGalery" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner justify-content-center">
+            <div class="carousel-item active">
+              <img src="./img/galery/galery1.jpg" class="carousel-img" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/galery/galery2.jpg" class="carousel-img" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/galery/galery3.jpg" class="carousel-img" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselGalery" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselGalery" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+  <!--COMISSIONS-->
+  <section id="comissions" class="container-lg mt-3 pb-5">
+    <h1 class="text-lightground text-center pb-3 mb-5">Comissions</h1>
+
+    <div class="row g-5">
+        <div class="col-lg-6 d-flex flex-column align-items-center">
+          <h3 class="text-light text-justify">Landscape + Character $200+</h3>
+          <img class="img-comissions img-fluid" src="./img/comission/comission1.jpg" alt="comission1">
+        </div>
+
+        <div class="col-lg-6 d-flex flex-column align-items-center">
+          <h3 class="text-light text-justify">Full-body $130</h3>
+          <img class="img-comissions img-fluid" src="./img/comission/comission2.jpg" alt="comission1">
+        </div>
+
+        <div class="col-lg-6 d-flex flex-column align-items-center">
+          <h3 class="text-light text-justify">Halfbody $90+</h3>
+          <img class="img-comissions img-fluid" src="./img/comission/comission3.jpg" alt="comission1">
+        </div>
+
+        <div class="col-lg-6 d-flex flex-column align-items-center">
+          <h3 class="text-light text-justify">Bust $75</h3>
+          <img class="img-comissions img-fluid" src="./img/comission/comission4.jpg" alt="comission1">
+        </div>
+
+        <div class="col-lg d-flex flex-column align-items-center">
+          <h3 class="text-light text-justify">Character sheet $250+</h3>
+          <img class="img-comissions img-fluid" src="./img/comission/comission5.jpg" alt="comission1">
+        </div>
+        
+    </div>
+  </section>
+ 
+
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
